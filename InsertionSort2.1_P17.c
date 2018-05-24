@@ -26,13 +26,6 @@ void insertionSort(int *data, int len)
 
 int self_test()
 {
-/*
- r = randi([1 250],1,15)
-
-r =
-
-   206   174    80   238     9   110    96   192   199    47   123   112   162   178   189
-*/
 	int md[]={4,0,-2,9,-34,99,100,-44,88,-4,34};
 	int j=0;
 	insertionSort(md,11);
